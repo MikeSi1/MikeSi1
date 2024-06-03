@@ -1,0 +1,8 @@
+class Thermometer : public QWidget {
+public:
+    Thermometer(QWidget *parent = 0);
+protected:
+    void paintEvent(QPaintEvent *event);
+private:
+    int value;
+};
