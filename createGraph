@@ -1,0 +1,11 @@
+        cin >> vexnum >> edge;
+    }
+    Graph_DG graph(vexnum, edge);
+    graph.createGraph();
+    graph.print();
+    graph.topological_sort();
+    graph.topological_sort_by_dfs();
+    system("pause");
+    return 0;
+ 
+}
